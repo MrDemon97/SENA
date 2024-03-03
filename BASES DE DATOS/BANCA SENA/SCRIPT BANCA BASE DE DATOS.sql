@@ -2,7 +2,7 @@
 /*++-------------------------SCRIPT BASE DE DATOS RELACIONAL mySQL "BANCA SENA"-------------------++*/
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-/*----------------------------------POR JAIR CORAL Y BRIAN SENA 2024------------------------------------*/
+/*---------------------------POR JAIR CORAL Y BRIAN ARTINEZ SENA 2024-------------------------------*/
 
 /*--------------------------------------------------------------------------------------------------*/
 /*||                           SENTENCIAS DDL DATA DEIFINITION LANGUAJE                           ||*/
@@ -188,11 +188,11 @@ INSERT INTO transaccion (transaccion_id, fecha_transaccion, valor_transaccion, t
 
 /*---------------------------INICIO INSTRUCCIÓN INSERTAR DATOS EN TABLA ADMINISTADOR---------------------------*/
 INSERT INTO administrador(administrador_id, nombre_administrador, clave_administrador) VALUES
-	('admin01','Pablo Perez', sha1(1568)),
-	('admin02','Juan Rodriguez', sha1(8745)),
-	('admin03','Maria Garcia', sha1(3921)),
-	('admin04','Ana Martinez', sha1(6702)),
-	('admin05','Luisa Lopez', sha1(5418))
+('admin01','Pablo Perez', sha1(1568)),
+('admin02','Juan Rodriguez', sha1(8745)),
+('admin03','Maria Garcia', sha1(3921)),
+('admin04','Ana Martinez', sha1(6702)),
+('admin05','Luisa Lopez', sha1(5418))
 /*---------------------------FIN INSTRUCCIÓN INSERTAR DATOS EN TABLA ADMINISTADOR---------------------------*/
 
 
