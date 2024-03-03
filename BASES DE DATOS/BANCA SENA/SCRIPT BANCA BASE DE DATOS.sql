@@ -7,14 +7,14 @@
 /*--------------------------------------------------------------------------------------------------*/
 /*||                           SENTENCIAS DDL DATA DEIFINITION LANGUAJE                           ||*/
 /*--------------------------------------------------------------------------------------------------*/
-/*--------------------------------INICO INSTRUCCIÓN CREAR BASE DE DATOS-----------------------------*/
+/*--------------------------------INICIO INSTRUCCIÓN CREAR BASE DE DATOS----------------------------*/
 CREATE DATABASE banca_sena;
 /*----------------------------------FIN INSTRUCCIÓN CREAR BASE DE DATOS-----------------------------*/
 
-/*Se ordena mediante instruccion conectarse a base de datos creaada para poder realizar consultas y
+/*Se ordena mediante instruccion conectarse a base de datos creada para poder realizar consultas y
 modificaciones*/
 USE banca_sena;
-/*Un vez conectada, se inica a crear las tablas, para la creación se tendrá en cuenta el 
+/*Un vez conectada, se inicia a crear las tablas, para la creación se tendrá en cuenta el 
 diagrama entidad-relacion como base para entender y crear las 
 talas de esta base de datos.*/
 /*---------------------------------------------------------------------------------------------------*/
@@ -188,11 +188,11 @@ INSERT INTO transaccion (transaccion_id, fecha_transaccion, valor_transaccion, t
 
 /*---------------------------INICIO INSTRUCCIÓN INSERTAR DATOS EN TABLA ADMINISTADOR---------------------------*/
 INSERT INTO administrador(administrador_id, nombre_administrador, clave_administrador) VALUES
-('admin01','Pablo Perez', sha1(1568)),
-('admin02','Juan Rodriguez', sha1(8745)),
-('admin03','Maria Garcia', sha1(3921)),
-('admin04','Ana Martinez', sha1(6702)),
-('admin05','Luisa Lopez', sha1(5418))
+	('admin01','Pablo Perez', sha1(1568)),
+	('admin02','Juan Rodriguez', sha1(8745)),
+	('admin03','Maria Garcia', sha1(3921)),
+	('admin04','Ana Martinez', sha1(6702)),
+	('admin05','Luisa Lopez', sha1(5418))
 /*---------------------------FIN INSTRUCCIÓN INSERTAR DATOS EN TABLA ADMINISTADOR---------------------------*/
 
 
